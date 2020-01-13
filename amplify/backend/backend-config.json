@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"graph055e83f41b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"api": {}
+}
