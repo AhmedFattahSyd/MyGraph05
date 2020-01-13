@@ -23,7 +23,7 @@ interface IMpgAppState {
 // MpgApp
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 class MpgApp extends React.Component<IMpgAppProps,IMpgAppState>{
-  private _currentUser: MpgUser = new MpgUser()
+  private _currentUser: MpgUser = new MpgUser() 
   constructor(props: IMpgAppProps){
     super(props)
     Hub.listen('auth', (data) => {
